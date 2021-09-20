@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+}
+
+body {
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+h1 {
+    color: black;
+}
+
+.counter {
+    font-family: 'Gluten', cursive;
+    background-color: rgba(85, 168, 168, 0.349);
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background: linear-gradient(135deg, #61CEBB 0%, #1C6EA4 74%, #6F47C5 100%);
+    box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.btn-add {
+    background-color:#84DE02;
+	cursor:pointer;
+    border: none;
+    border-radius: 10%;
+	padding:7px 15px;
+}
+
+.btn-lower {
+	background-color:#E32636;
+	cursor:pointer;
+    border: none;
+    border-radius: 10%;
+	padding:7px 15px;
+}
+
+.btn-reset {
+    background-color:black;
+	cursor:pointer;
+    border: none;
+    border-radius: 10%;
+	padding:7px 15px;
+}
